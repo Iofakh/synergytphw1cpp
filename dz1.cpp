@@ -1,10 +1,8 @@
-﻿// dz1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
+#include <iostream>
 
-#include <stdio.h>
-
-main()
+int main()
 {
-    printf("Hello");
+    std::cout<<"Hello"<<std::endl;
+    return 0;
 }
 
